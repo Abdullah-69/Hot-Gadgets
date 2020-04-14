@@ -1,0 +1,182 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+#navbar{
+    margin-top: 20px;
+}
+/*banner part css start*/
+
+
+.carousel-item{
+
+    padding: 20px 40px;
+}
+.carousel-item h2{
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.carousel-item p{
+
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.buy-button{
+
+
+    font-size: 20px;;
+    padding: 20px 50px;
+    border-radius: 15px;;
+    color: white;
+    background-color: #000000;
+}
+
+.carousel-indicators li {
+    background-color: orange;
+    height: 5px;
+    width: 40px;
+    border-radius: 300px;
+}
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+
+    filter: invert(1);
+}
+
+/*banner part css send*/
+
+/*smart-phone text part css start*/
+
+#smartphone-text{
+    padding: 0 40px;
+    margin-top: 40px;
+}
+
+#smartphone-text h3{
+    font-size: 30px;
+}
+
+#smartphone-text a{
+    font-size: 15px;
+    color: orange;
+
+}
+
+/*smart-phone text part css end*/
+
+/*smart-phone product part css start*/
+
+#smartphone-product{
+    margin-top: 40px;
+}
+
+.h5, h5{
+    font-size: 19px;
+
+}
+.card{
+    padding: 20px 30px;
+    text-align: center;
+    border: none;
+    box-shadow: 10px 10px 40px lightgray;
+    border-radius: 10px;
+} 
+
+.card-buy-button{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.card-text{
+    font-weight: 200;
+}
+/*smart-phone product part css end*/
+
+
+/*laptop text part css start  */
+
+
+#laptop-text{
+padding: 0 40px;
+margin-top: 40px;
+
+}
+
+#laptop-text h3{
+  font-size: 35px;
+}
+
+#laptop-text a{
+    font-size: 15px;
+    color: orange;
+
+}
+/*laptop text part css end*/
+
+/*laptop product part css start*/
+#laptop-product{
+    margin-top: 40px;
+}
+
+/*laptop product part css end*/
+
+
+/* Categories part css start*/
+#Categories h3{
+
+    border-bottom: 5px;
+}
+.Categories-section {
+    position: relative;
+    margin-bottom: 130px;
+    margin-top: 57px;
+}
+.Categories-title{
+
+    position: absolute;
+    left: 500px;
+}
+
+
+.Categories-title::after{
+    content: '';
+    background-color:#FF9C35;
+    width: 120px;
+    height: 8px;
+    position: absolute;
+    bottom: -15px;
+    right: -1px;
+    border-radius: 16px;
+    
+}
+
+.sigle-img img{
+
+    box-shadow: 10px 10px 10px #efefef;padding: 20px 30px;
+    border-radius: 10px;
+
+}
+
+.two-img img{
+
+
+    padding: 20px 30px;
+    box-shadow: 10px 10px 10px #efefef;
+    margin-left: 65px;
+
+    border-radius: 10px;
+
+}
+
+.pale-img img{
+
+    height: 400px;
+}
+/* Categories part css end*/
